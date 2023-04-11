@@ -16,7 +16,8 @@ router.register('messagebytopic', SearchMessageByTopic, basename = 'MessageByTop
 router.register('messagebytopicsorted', SearchMessageByTopicSorted, basename = 'MessageByTopicSorted')
 router.register('expiredmessagebytopic', SearchExpiredMessageByTopic, basename = 'ExpiredMessageByTopic')
 
-
+admin.site.site_header = 'CHITTER - Cloud-based Messaging App'
+admin.site.index_title = 'List of registered applications'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')), #setting IP:8000/o/ as URL resource to perform authentication
