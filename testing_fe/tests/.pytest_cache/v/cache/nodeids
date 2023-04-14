@@ -1,0 +1,15 @@
+[
+  "test_post_messages.py::test_post_messages[mary-message_data2]",
+  "test_post_messages.py::test_post_messages[nick-message_data1]",
+  "test_post_messages.py::test_post_messages[olga-message_data0]",
+  "test_user_registration.py::test_request_new_token[mary-mary123]",
+  "test_user_registration.py::test_request_new_token[nester-nester123]",
+  "test_user_registration.py::test_request_new_token[nick-nick123]",
+  "test_user_registration.py::test_request_new_token[olga-olga123]",
+  "test_user_registration.py::test_unauthorized_request",
+  "test_user_registration.py::test_user_registration",
+  "test_user_registration.py::test_user_registration[mary-mary123-Mary-Johns]",
+  "test_user_registration.py::test_user_registration[nester-nester123-Nester-Smith]",
+  "test_user_registration.py::test_user_registration[nick-nick123-Nick-English]",
+  "test_user_registration.py::test_user_registration[olga-olga123-Olga-Kiev]"
+]
